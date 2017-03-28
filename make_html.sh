@@ -7,6 +7,11 @@ ANSI="full_terminal.script"
 ANSI_DIR="full_terminal.d"
 ANSI2HTML_OPTIONS="--bg=dark"
 
+ANSI_DIR_NEWEST=""  # newest file in ${ANSI_DIR}
+if [ -d ${ANSI_DIR} ]; then
+  ANSI_DIR_NEWEST="$(ls -1t ${ANSI_DIR}/[0-9][0-9][0-9] | head -1)"
+fi
+
 
 # Define functions
 
@@ -28,11 +33,6 @@ function do_dir {
 
 
 # Main code
-
-ANSI_DIR_NEWEST=""  # newest file in ${ANSI_DIR}
-if [ -d ${ANSI_DIR} ]; then
-  ANSI_DIR_NEWEST="$(ls -1t ${ANSI_DIR}/[0-9][0-9][0-9] | head -1)"
-fi
 
 if [ ${ANSI} -nt ${ANSI_DIR_NEWEST} ]; then
   # must be using script, convert single file
