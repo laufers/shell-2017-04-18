@@ -29,10 +29,15 @@ function do_dir {
 
 # Main code
 
-if [ ${ANSI} -nt ${ANSI_DIR} ]; then
+ANSI_DIR_NEWEST=""  # newest file in ${ANSI_DIR}
+if [ -d ${ANSI_DIR} ]; then
+  ANSI_DIR_NEWEST="$(ls -1t ${ANSI_DIR}/[0-9][0-9][0-9] | head -1)"
+fi
+
+if [ ${ANSI} -nt ${ANSI_DIR_NEWEST} ]; then
   # must be using script, convert single file
   do_file
-elif [ ${ANSI_DIR}/* -nt ${ANSI} ]; then
+elif [ ${ANSI_DIR_NEWEST} -nt ${ANSI} ]; then
   # must be using mintty log, convert directory
   do_dir
 else
