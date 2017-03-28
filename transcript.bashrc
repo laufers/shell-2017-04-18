@@ -18,7 +18,3 @@ REPO_PATH="$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
 # The PROMPT_COMMAND is executed by bash every time before displaying your prompt.
 export PROMPT_COMMAND="history 1 | sed 's/^\ *[0-9]\+\ \+//' >> ${REPO_PATH}/commands.txt"
 
-# Set the prompt string. Keep it short by excluding the working directory
-# so the learners don't have a hard time following the commands you enter.
-export PS1="$ "
-
