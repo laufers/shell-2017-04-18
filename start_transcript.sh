@@ -19,7 +19,7 @@ case "$(uname -s)" in
     numf=$(printf "%03d" ${num})
     mintty_log="${REPO_PATH}/full_terminal.d/${numf}"
     mintty.exe --dir "${REPO_PATH}" --exec bash auto_push.sh &
-    mintty.exe --log "${mintty_log}" --exec bash --rcfile "${REPO_PATH}/transcript.bashrc"
+    mintty.exe --log "${mintty_log}" --Title "Teaching Terminal" --exec bash --rcfile "${REPO_PATH}/transcript.bashrc"
     ;;
 
 esac
