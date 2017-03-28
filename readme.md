@@ -15,7 +15,7 @@ Before you begin:
 
 Download the `setup_ssh_key.sh` script and create an ssh key for github (or you can do this manually if you prefer).
 ```bash
-$ wget https://raw.githubusercontent.com/evanlinde/shell-transcript/setup_ssh_key.sh
+$ wget https://raw.githubusercontent.com/evanlinde/shell-transcript/master/setup_ssh_key.sh
 $ bash setup_ssh_key.sh
 ```
 
