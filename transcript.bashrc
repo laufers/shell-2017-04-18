@@ -3,7 +3,13 @@
 # Set the environment for the instructor's bash shell.
 #
 
-[ -f ~/.bashrc ] && source ~/.bashrc
+if [ -f ~/.bashrc ]; then
+    source ~/.bashrc
+elif [ -f /etc/bash.bashrc ]; then
+    source /etc/bash.bashrc
+fi
+
+alias ls='ls --color=auto'
 
 # Get the path of the directory that contains this script.
 REPO_PATH="$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
