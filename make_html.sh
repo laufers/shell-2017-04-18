@@ -32,11 +32,12 @@ function do_dir {
 if [ ${ANSI} -nt ${ANSI_DIR} ]; then
   # must be using script, convert single file
   do_file
-elif [ ${ANSI_DIR} -nt ${ANSI} ]; then
+elif [ ${ANSI_DIR}/* -nt ${ANSI} ]; then
   # must be using mintty log, convert directory
   do_dir
 else
   # presumably neither ${ANSI} nor ${ANSI_DIR} exists 
   # (or they were modified at exactly the same time)
   # Do nothing
+  :
 fi
