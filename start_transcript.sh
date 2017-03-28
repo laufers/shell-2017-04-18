@@ -25,11 +25,25 @@ case "$(uname -s)" in
     ;;
 
   MINGW*|CYGWIN*|MSYS*)
+    # Using mintty's log option instead of script since script is not
+    # included with git bash. The log option doesn't allow appending to
+    # an existing file, so we're creating a directory (full_terminal.d)
+    # and using log files named "000" through "999".
     mkdir -p "${REPO_PATH}/full_terminal.d"
+
+    # Get the number of existing files. Since we're starting with 0, we
+    # can use this number to name the current log file.
     num=$(find "${REPO_PATH}/full_terminal.d" -mindepth 1 -maxdepth 1 | wc -l)
+    
+    # Format the number with leading zeros.
     numf=$(printf "%03d" ${num})
+
     mintty_log="${REPO_PATH}/full_terminal.d/${numf}"
+
+    # Launch a new window running the auto_push script.
     mintty.exe --dir "${REPO_PATH}" --exec bash auto_push.sh &
+
+    # Launch the teaching terminal in a new window.
     mintty.exe --log "${mintty_log}" --Title "Teaching Terminal" --exec bash --rcfile "${RCFILE}"
     ;;
 
