@@ -24,7 +24,7 @@ function do_file {
 
 function do_dir {
   # convert files in directory full_terminal.d to html
-  if [ ${ANSI_DIR} -nt ${HTML} ]; then
+  if [ ${ANSI_DIR_NEWEST} -nt ${HTML} ]; then
     # files are named numerically with leading zeros 
     # so they should glob in the correct order
     cat ${ANSI_DIR}/* | bash ansi2html.sh ${ANSI2HTML_OPTIONS} > ${HTML}
