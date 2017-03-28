@@ -14,8 +14,12 @@ case "$(uname -s)" in
     ;;
 
   MINGW*|CYGWIN*|MSYS*)
+    mkdir -p "${REPO_PATH}/full_terminal.d"
+    num=$(find "${REPO_PATH}/full_terminal.d" -mindepth 1 -maxdepth 1 | wc -l)
+    numf=$(printf "%03d" ${num})
+    mintty_log="${REPO_PATH}/full_terminal.d/${numf}"
     mintty.exe --dir "${REPO_PATH}" --exec bash auto_push.sh &
-    mintty.exe --log full_terminal.script --exec bash --rcfile "${REPO_PATH}/transcript.bashrc"
+    mintty.exe --log "${mintty_log}" --exec bash --rcfile "${REPO_PATH}/transcript.bashrc"
     ;;
 
 esac
