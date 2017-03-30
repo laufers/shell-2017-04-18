@@ -47,4 +47,19 @@ case "$(uname -s)" in
     mintty.exe --log "${mintty_log}" --Title "Teaching Terminal" --exec bash --rcfile "${RCFILE}"
     ;;
 
+  Darwin)
+    # The script command on Mac has different options than on Linux
+    # It can only immediately flush output to a named pipe
+    NAMED_PIPE="${REPO_PATH}/full_terminal.pipe"
+    if [ ! -p "${NAMED_PIPE}" ]; then
+      mkfifo "${NAMED_PIPE}"
+    fi
+
+    # Start a new terminal window running the auto_push script
+    #open -a Terminal.app "${REPO_PATH}/auto_push.sh"
+
+    #cat full_terminal.pipe >> full_terminal.script &
+    script -aq -F "${NAMED_PIPE}" bash --rcfile "${RCFILE}"
+    ;;
+
 esac
