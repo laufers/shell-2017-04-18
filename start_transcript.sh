@@ -56,9 +56,11 @@ case "$(uname -s)" in
     fi
 
     # Start a new terminal window running the auto_push script
-    #open -a Terminal.app "${REPO_PATH}/auto_push.sh"
+    # First need to make the auto_push script executable
+    chmod +x "${REPO_PATH}/auto_push.sh"
+    open -a Terminal.app "${REPO_PATH}/auto_push.sh"
 
-    #cat full_terminal.pipe >> full_terminal.script &
+    cat "${NAMED_PIPE}" >> "${REPO_PATH}/full_terminal.script" &
     script -aq -F "${NAMED_PIPE}" bash --rcfile "${RCFILE}"
     ;;
 
