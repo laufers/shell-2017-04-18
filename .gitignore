@@ -1,0 +1,2 @@
+# ignore anything ending in ".pipe"
+*.pipe
