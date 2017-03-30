@@ -41,12 +41,15 @@ Start transcribing your terminal:
 ```bash
 $ bash ~/your_repo_name/start_transcript.sh
 ```
-Your prompt will be set to "$ " in the current terminal (Linux) or in a new terminal (git bash, Cygwin) and all commands you enter and their output will be recorded. A new terminal window will open and start the `auto_push.sh` script to push the transcripts to github. The transcripts will be accessible at https://*your_github_username*.github.io/*your_repo_name*.
+Your prompt will be set to "$ " in the current terminal (Linux, Mac) or in a new terminal (git bash, Cygwin) and all commands you enter and their output will be recorded. A new terminal window will open and start the `auto_push.sh` script to push the transcripts to github. The transcripts will be accessible at https://*your_github_username*.github.io/*your_repo_name*.
 
-Three files will be created:
+To leave your prompt unchanged, run `bash ~/your_repo_name/start_transcript.sh --keep-prompt`
+
+Some files will be created:
 * `commands.txt` -- command history with no output
 * `full_terminal.script` -- full output from the `script` command (commands and output) including ANSI escape sequences (created on Linux and Mac)
 * `full_terminal.d` -- directory with sequentially numbered files of the log output from `mintty.exe` (created on Windows with git bash or Cygwin, equivalent to the output from `script`)
+* `full_terminal.pipe` -- [named pipe](https://en.wikipedia.org/wiki/Unix_file_types#Named_pipe) where the script command can immediately flush output (created on Mac; the included version of `script` doesn't have the option to do this directly to a regular file)
 * `full_terminal.html` -- output from `script` or `mintty.exe` converted to html
 The provided `index.html` uses jquery to include `full_terminal.html` and `commands.txt`.
 
@@ -56,7 +59,7 @@ Cleanup
 
 You'll want to do these steps when you're finished teaching:
 1. End the script recording in your teaching terminal (hit Ctrl-D or type "exit").
-2. Kill the `auto_push.sh` script (hit Ctrl-C in the `xterm` window or just close the `xterm` window).
+2. Kill the `auto_push.sh` script (hit Ctrl-C in the terminal window).
 3. Delete the ssh key from your github profile. (This is **very** important if you're teaching from a shared instructor station or any system that other people control or access since the key will allow pushes to your github account. You can skip this if you're using your own laptop.)
 4. Delete the github ssh key from `~/.ssh` and undo changes to `~/.ssh/config`.
 
