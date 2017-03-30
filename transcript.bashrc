@@ -1,5 +1,4 @@
-#!/bin/bash
-#
+
 # Set the environment for the instructor's bash shell.
 #
 
@@ -7,6 +6,8 @@ if [ -f ~/.bashrc ]; then
     source ~/.bashrc
 elif [ -f /etc/bash.bashrc ]; then
     source /etc/bash.bashrc
+elif [ -f /etc/bashrc ]; then
+    source /etc/bashrc
 fi
 
 case "$(uname -s)" in
