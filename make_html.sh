@@ -18,7 +18,7 @@ fi
 function do_file {
   # convert single file to html
   if [ ${ANSI} -nt ${HTML} ]; then 
-    cat ${ANSI} | bash ansi2html.sh ${ANSI2HTML_OPTIONS} > ${HTML}
+    cat ${ANSI} | ./ansi2html.sh ${ANSI2HTML_OPTIONS} > ${HTML}
   fi
 }
 
@@ -27,12 +27,18 @@ function do_dir {
   if [ ${ANSI_DIR_NEWEST} -nt ${HTML} ]; then
     # files are named numerically with leading zeros 
     # so they should glob in the correct order
-    cat ${ANSI_DIR}/* | bash ansi2html.sh ${ANSI2HTML_OPTIONS} > ${HTML}
+    cat ${ANSI_DIR}/* | ./ansi2html.sh ${ANSI2HTML_OPTIONS} > ${HTML}
   fi
 }
 
 
 # Main code
+
+# Make ansi2html script directly executable since calling it as
+# an argument to bash doesn't work right on Mac
+if [ ! -x ansi2html.sh ]; then
+  chmod +x ansi2html.sh
+fi
 
 if [ ${ANSI} -nt ${ANSI_DIR_NEWEST} ]; then
   # must be using script, convert single file
