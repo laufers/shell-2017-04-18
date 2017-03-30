@@ -24,5 +24,5 @@ REPO_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # This causes the last command entered to be appended to the commands.txt file.
 # The PROMPT_COMMAND is executed by bash every time before displaying your prompt.
-export PROMPT_COMMAND="history 1 | sed -E 's/^\ *[0-9]+\ +//' >> ${REPO_PATH}/commands.txt"
+PROMPT_COMMAND="history 1 | sed -E 's/^\ *[0-9]+\ +//' >> ${REPO_PATH}/commands.txt"
 
