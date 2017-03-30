@@ -4,7 +4,7 @@
 #
 
 # Get the path of the directory that contains this script.
-REPO_PATH="$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
+REPO_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Inherit everything from transcript.bashrc
 source "${REPO_PATH}/transcript.bashrc"

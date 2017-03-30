@@ -12,7 +12,7 @@ fi
 alias ls='ls --color=auto'
 
 # Get the path of the directory that contains this script.
-REPO_PATH="$(dirname "$(realpath "${BASH_SOURCE[0]}")")"
+REPO_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # This causes the last command entered to be appended to the commands.txt file.
 # The PROMPT_COMMAND is executed by bash every time before displaying your prompt.
