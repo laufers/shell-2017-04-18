@@ -9,7 +9,14 @@ elif [ -f /etc/bash.bashrc ]; then
     source /etc/bash.bashrc
 fi
 
-alias ls='ls --color=auto'
+case "$(uname -s)" in
+  Darwin)
+    alias ls='ls -G'
+    ;;
+  *)
+    alias ls='ls --color=auto'
+    ;;
+esac
 
 # Get the path of the directory that contains this script.
 REPO_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
