@@ -22,20 +22,30 @@ $(document).ready(function(){
         cache: false
     });
 
-    $("#full_terminal").load("full_terminal.html");
-    //$("#commands").load("commands.txt");
-    $("#commands").hide();
-
-    $("#nav_terminal").click(function(){
-        $("#commands").hide();
+    $.fn.show_full_terminal = function(){
+        $("#commands_div").hide();
+        $("#full_terminal").height($(document).height()-$('#header').height()-20);
         $("#full_terminal").load("full_terminal.html");
         $("#full_terminal").show();
+        $("#full_terminal").scrollTop($("#full_terminal")[0].scrollHeight);
+    };
+
+    $.fn.show_commands = function(){
+        $("#full_terminal").hide();
+        $("#commands_div").height($(document).height()-$('#header').height()-20);
+        $("#commands").load("commands.txt");
+        $("#commands_div").show();
+        $("#commands_div").scrollTop($("#commands_div")[0].scrollHeight);
+    };
+
+    $(document).show_full_terminal();
+
+    $("#nav_terminal").click(function(){
+        $(document).show_full_terminal();
     });
 
     $("#nav_commands").click(function(){
-        $("#full_terminal").hide();
-        $("#commands").load("commands.txt");
-        $("#commands").show();
+        $(document).show_commands();
     });
 });
   </script>
