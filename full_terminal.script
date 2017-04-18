@@ -179,4 +179,5 @@ $ gawk[K[K[K[Kcls
 bash: cls: command not found
 $ exit
 exit
+[?1034h$ exit
 [?1034h$ 
