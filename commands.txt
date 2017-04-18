@@ -8,3 +8,6 @@ ls
 cd nelle
 ls
 pwd 
+cd creatures
+pwd 
+ls

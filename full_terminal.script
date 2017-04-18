@@ -13,4 +13,9 @@ $ ls
 [34mcreatures[39;49m[0m          [34mmolecules[39;49m[0m          notes.txt          solar.pdf
 $ pwd 
 /Users/laufers/swc/ou_swc_files/Users/nelle
-$ cd c
+$ cd cra[Keaters[K[K[Kures
+$ pwd 
+/Users/laufers/swc/ou_swc_files/Users/nelle/creatures
+$ ls
+basilisk.dat unicorn.dat
+$ 
