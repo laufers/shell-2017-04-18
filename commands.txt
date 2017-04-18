@@ -29,3 +29,4 @@ for filename in *.txt; do wc -l $filename; done
 tailf system.log
 ls
 git status
+git add full_terminal.script 
