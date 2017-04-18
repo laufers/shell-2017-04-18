@@ -61,3 +61,12 @@ ls
 cd ..
 ls
 cd north-pacific-gyre/2012-07-03/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
