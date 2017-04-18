@@ -40,3 +40,4 @@ exit
 /Users/laufers/Dropbox\ \(Univ.\ of\ Oklahoma\)/shared/shell-2017-04-18/auto_push.sh ; exit;
 pwd
 cd 
+cd swc/
