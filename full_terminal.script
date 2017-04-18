@@ -22,4 +22,12 @@ $ Ech[K[K[Kecho "this is very[K[K[K[Kinteresting and seems to s
 this is interesting and seems to work pretty nice.
 $ echo I [K[K" I[K[KI am looking fow[Krward to hearing how this woe[Krked in the last OSU SWC workshop."
 I am looking forward to hearing how this worked in the last OSU SWC workshop.
-$ 
+$ ls
+basilisk.dat unicorn.dat
+$ pwd 
+/Users/laufers/swc/ou_swc_files/Users/nelle/creatures
+$ cd ../
+$ ls
+[34mDesktop[39;49m[0m            [34mdata[39;49m[0m               [34mnorth-pacific-gyre[39;49m[0m pizza.cfg          [34mwriting[39;49m[0m
+[34mcreatures[39;49m[0m          [34mmolecules[39;49m[0m          notes.txt          solar.pdf
+$ cd
