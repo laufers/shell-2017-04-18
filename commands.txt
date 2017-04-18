@@ -28,3 +28,4 @@ for filename in *.txt; do echo $filename; wc -l $filename; echo ''; done
 for filename in *.txt; do wc -l $filename; done 
 tailf system.log
 ls
+git status
