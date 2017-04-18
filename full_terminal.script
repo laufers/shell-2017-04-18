@@ -180,4 +180,6 @@ bash: cls: command not found
 $ exit
 exit
 [?1034h$ exit
-[?1034h$ 
+[?1034h$ pwd
+/Users/laufers/dropou/shared/shell-2017-04-18
+$ cd 
