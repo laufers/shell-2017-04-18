@@ -97,3 +97,6 @@ cd data
 ls
 cd pdb
 ls
+for filename in *.pdb; do wc -l $filename ; done
+for filename in *.pdb; do wc -l $filename ; done
+for filename in *.pdb; do wc -l $filename ; done
