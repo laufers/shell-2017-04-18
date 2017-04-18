@@ -32,3 +32,4 @@ git status
 git add full_terminal.script 
 git commit -m 'test'
 git status
+git status
