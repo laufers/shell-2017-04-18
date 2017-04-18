@@ -123,4 +123,9 @@ $ for filename in *.txt; do echo $filename; wc -l $filename; echo ''; done 
      300 NENE02043A.txt
      300 NENE02043B.txt
 $ exit
-[?1034h$ 
+[?1034h$ ls
+[31mansi2html.sh[39;49m[0m         [33mfull_terminal.pipe[39;49m[0m   readme.md            transcript.bashrc
+[31mauto_push.sh[39;49m[0m         full_terminal.script setup_ssh_key.sh
+commands.txt         index.html           short_prompt.bashrc
+full_terminal.html   make_html.sh         start_transcript.sh
+$ 
