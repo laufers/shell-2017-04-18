@@ -191,4 +191,6 @@ $ ls
 $ cd Users/
 $ ls
 [34mimhotep[39;49m[0m [34mlarry[39;49m[0m   [34mnelle[39;49m[0m
+$ ls
+[34mimhotep[39;49m[0m [34mlarry[39;49m[0m   [34mnelle[39;49m[0m
 $ 
