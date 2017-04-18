@@ -357,4 +357,8 @@ $ find . -name ".DS_Store" -print -exec \rm {} \;
 ./Users/nelle/writing/tools/.DS_Store
 $ ls
 [34mUsers[39;49m[0m        [34mgapminder[39;49m[0m    [34minflammation[39;49m[0m [34mr-gapminder[39;49m[0m
+$ ls 0a[K[K-a[Ka
+[34m.[39;49m[0m            [34m..[39;49m[0m           [34m.git[39;49m[0m         [34mUsers[39;49m[0m        [34mgapminder[39;49m[0m    [34minflammation[39;49m[0m [34mr-gapminder[39;49m[0m
+$ ls
+[34mUsers[39;49m[0m        [34mgapminder[39;49m[0m    [34minflammation[39;49m[0m [34mr-gapminder[39;49m[0m
 $ 
