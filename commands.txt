@@ -30,3 +30,5 @@ tailf system.log
 ls
 git status
 git add full_terminal.script 
+git commit -m 'test'
+git status
