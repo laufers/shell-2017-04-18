@@ -167,4 +167,5 @@ Changes not staged for commit:
 	[31mmodified:   full_terminal.script[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-$ 
+$ exit
+[?1034h$ 
