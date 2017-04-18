@@ -91,3 +91,7 @@ cd nelle
 pwd
 pwd
 pwd
+ls -F
+wc -l notes.txt 
+cd data
+ls

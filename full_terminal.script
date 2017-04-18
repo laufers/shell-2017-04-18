@@ -399,4 +399,13 @@ $ pwd
 /Users/laufers/swc/ou_swc_files/Users/nelle
 $ 
 $ 
-$ 
+$ ls -F
+[34mDesktop[39;49m[0m/            [34mdata[39;49m[0m/               [34mnorth-pacific-gyre[39;49m[0m/ pizza.cfg           [34mwriting[39;49m[0m/
+[34mcreatures[39;49m[0m/          [34mmolecules[39;49m[0m/          notes.txt           solar.pdf
+$ wc -l notes.txt 
+       3 notes.txt
+$ cd data
+$ ls
+amino-acids.txt [34melements[39;49m[0m        [34mpdb[39;49m[0m             salmon.txt
+animals.txt     morse.txt       planets.txt     sunspot.txt
+$ cd pd
