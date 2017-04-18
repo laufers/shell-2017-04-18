@@ -30,4 +30,13 @@ $ cd ../
 $ ls
 [34mDesktop[39;49m[0m            [34mdata[39;49m[0m               [34mnorth-pacific-gyre[39;49m[0m pizza.cfg          [34mwriting[39;49m[0m
 [34mcreatures[39;49m[0m          [34mmolecules[39;49m[0m          notes.txt          solar.pdf
-$ cd
+$ cd north-pacific-gyre/
+$ ls
+[34m2012-07-03[39;49m[0m
+$ cd 20qe[K[K12-07-03
+$ ls
+NENE01729A.txt NENE01751B.txt NENE01971Z.txt NENE02040A.txt NENE02043B.txt
+NENE01729B.txt NENE01812A.txt NENE01978A.txt NENE02040B.txt goodiff
+NENE01736A.txt NENE01843A.txt NENE01978B.txt NENE02040Z.txt goostats
+NENE01751A.txt NENE01843B.txt NENE02018B.txt NENE02043A.txt
+$ 

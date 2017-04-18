@@ -17,3 +17,7 @@ ls
 pwd 
 cd ../
 ls
+cd north-pacific-gyre/
+ls
+cd 2012-07-03
+ls
