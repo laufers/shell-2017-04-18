@@ -388,4 +388,15 @@ $ exit
 exit
 [?1034h$ d[Kcd swc
 /Users/laufers/swc
-$ cd ou-[K
+$ cd ou-[K_swc_files/
+$ ls
+[34mUsers[39;49m[0m        [34mgapminder[39;49m[0m    [34minflammation[39;49m[0m [34mr-gapminder[39;49m[0m
+$ cd gea[K[K[K[K Users/
+$ ls
+[34mimhotep[39;49m[0m [34mlarry[39;49m[0m   [34mnelle[39;49m[0m
+$ cd nelle
+$ pwd
+/Users/laufers/swc/ou_swc_files/Users/nelle
+$ 
+$ 
+$ 

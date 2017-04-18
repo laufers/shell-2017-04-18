@@ -83,3 +83,11 @@ ls
 for filename in *.pdb; do wc -l $filename; done
 exit
 cd swc
+cd ou_swc_files/
+ls
+cd Users/
+ls
+cd nelle
+pwd
+pwd
+pwd
