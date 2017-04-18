@@ -346,7 +346,9 @@ $ ls *.txt | wc -l
 $ for filename in *.txt                                                               
 &gt; do
 &gt; echo $filename                                                                      
-&gt; wc 
+&gt; wc -l $filename
+&gt; echo ''
+&gt; done
 </pre>
 </body>
 </html>

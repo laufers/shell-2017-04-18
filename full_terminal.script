@@ -50,4 +50,6 @@ $ ls *.txt | wc -l
 $ for fiel[K[Klename in *.txt
 > do
 > echo '[K$filename
-> wc 
+> wc -l $filename
+> echo ''
+> done
