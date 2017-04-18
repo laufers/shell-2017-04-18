@@ -169,4 +169,13 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 $ exit
 [?1034h$ exit
-[?1034h$ gsed 
+[?1034h$ gsed [K[K[K[K[Kga
+gatherheaderdoc  gawk             gawk-4.1.4       
+$ ga
+gatherheaderdoc  gawk             gawk-4.1.4       
+$ gawk
+gawk        gawk-4.1.4  
+$ gawk[K[K[K[Kcls
+bash: cls: command not found
+$ exit
+exit
