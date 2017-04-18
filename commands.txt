@@ -11,3 +11,4 @@ pwd
 cd creatures
 pwd 
 ls
+echo "this is interesting and seems to work pretty nice."

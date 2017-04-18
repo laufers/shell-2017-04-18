@@ -18,4 +18,6 @@ $ pwd
 /Users/laufers/swc/ou_swc_files/Users/nelle/creatures
 $ ls
 basilisk.dat unicorn.dat
-$ Ech[K[K[Kecho "this is very[K[K[K[Kinteresting and seems to s[Kwork pretty nice. 
+$ Ech[K[K[Kecho "this is very[K[K[K[Kinteresting and seems to s[Kwork pretty nice. I [K[K[K"
+this is interesting and seems to work pretty nice.
+$ echo I [K[K" I[K[K
