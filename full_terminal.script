@@ -20,4 +20,6 @@ $ ls
 basilisk.dat unicorn.dat
 $ Ech[K[K[Kecho "this is very[K[K[K[Kinteresting and seems to s[Kwork pretty nice. I [K[K[K"
 this is interesting and seems to work pretty nice.
-$ echo I [K[K" I[K[KI am looking fow[Krward to hearing how this woe
+$ echo I [K[K" I[K[KI am looking fow[Krward to hearing how this woe[Krked in the last OSU SWC workshop."
+I am looking forward to hearing how this worked in the last OSU SWC workshop.
+$ 
