@@ -49,4 +49,5 @@ $ ls *.txt | wc -l
       17
 $ for fiel[K[Klename in *.txt
 > do
-> echo
+> echo '[K$filename
+> wc 
