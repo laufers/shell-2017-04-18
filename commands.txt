@@ -26,3 +26,4 @@ ls *[AB].txt | wc -l
 ls *.txt | wc -l
 for filename in *.txt; do echo $filename; wc -l $filename; echo ''; done 
 for filename in *.txt; do wc -l $filename; done 
+tailf system.log
