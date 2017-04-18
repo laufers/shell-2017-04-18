@@ -21,3 +21,4 @@ cd north-pacific-gyre/
 ls
 cd 2012-07-03
 ls
+ls *[AB].txt
