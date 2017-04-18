@@ -374,4 +374,6 @@ $ ls
 $ cd molecules/
 $ ls
 cubane.pdb  ethane.pdb  methane.pdb octane.pdb  pentane.pdb propane.pdb
-$ for filename in #.[K[K*.
+$ for filename in #.[K[K*.pdb
+> od[K[Kdo
+> wc -l $filenam
