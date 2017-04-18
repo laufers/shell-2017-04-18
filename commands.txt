@@ -1,2 +1,3 @@
 exit
 cd 
+cd swc/ou_swc_files/
