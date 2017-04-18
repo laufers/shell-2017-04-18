@@ -76,3 +76,7 @@ ls -a
 ls
 git status 
 ls
+cd Users/nelle/
+ls
+cd molecules/
+ls

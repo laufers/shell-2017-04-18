@@ -367,4 +367,11 @@ Your branch is up-to-date with 'origin/master'.
 nothing to commit, working tree clean
 $ ls
 [34mUsers[39;49m[0m        [34mgapminder[39;49m[0m    [34minflammation[39;49m[0m [34mr-gapminder[39;49m[0m
+$ cd Users/nelle/
+$ ls
+[34mDesktop[39;49m[0m            [34mdata[39;49m[0m               [34mnorth-pacific-gyre[39;49m[0m pizza.cfg          [34mwriting[39;49m[0m
+[34mcreatures[39;49m[0m          [34mmolecules[39;49m[0m          notes.txt          solar.pdf
+$ cd molecules/
+$ ls
+cubane.pdb  ethane.pdb  methane.pdb octane.pdb  pentane.pdb propane.pdb
 $ 
