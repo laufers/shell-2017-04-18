@@ -95,3 +95,5 @@ ls -F
 wc -l notes.txt 
 cd data
 ls
+cd pdb
+ls
