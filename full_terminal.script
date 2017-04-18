@@ -324,4 +324,7 @@ $ cd ..
 $ ls
 [34mDesktop[39;49m[0m            [34mdata[39;49m[0m               [34mnorth-pacific-gyre[39;49m[0m pizza.cfg          [34mwriting[39;49m[0m
 [34mcreatures[39;49m[0m          [34mmolecules[39;49m[0m          notes.txt          solar.pdf
+$ cd north-pacific-gyre/
+.DS_Store   2012-07-03/ 
+$ cd north-pacific-gyre/2012-07-03/
 $ 
