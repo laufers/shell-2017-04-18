@@ -41,3 +41,7 @@ exit
 pwd
 cd 
 cd swc/
+cd ou_swc_files/
+ls
+cd Users/
+ls
