@@ -53,3 +53,4 @@ ls
 cd pdb
 ls
 pwd 
+cat aldrin.pdb 
