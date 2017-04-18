@@ -55,3 +55,8 @@ ls
 pwd 
 cat aldrin.pdb 
 grep -i auth *.pdb
+ls
+cd ..
+ls
+cd ..
+ls

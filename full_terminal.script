@@ -303,4 +303,25 @@ tyrian-purple.pdb:AUTHOR      DAVE WOODCOCK  95 11 01
 vanillin.pdb:AUTHOR      DAVE WOODCOCK  95 11 01
 vinyl-chloride.pdb:AUTHOR      JENNI WOODCOCK  97 07 31
 vitamin-a.pdb:AUTHOR      DAVE WOODCOCK  97 03 17
+$ ls
+aldrin.pdb           cyclopropane.pdb     methane.pdb          quinine.pdb
+ammonia.pdb          ethane.pdb           methanol.pdb         strychnine.pdb
+ascorbic-acid.pdb    ethanol.pdb          mint.pdb             styrene.pdb
+benzaldehyde.pdb     ethylcyclohexane.pdb morphine.pdb         sucrose.pdb
+camphene.pdb         glycol.pdb           mustard.pdb          testosterone.pdb
+cholesterol.pdb      heme.pdb             nerol.pdb            thiamine.pdb
+cinnamaldehyde.pdb   lactic-acid.pdb      norethindrone.pdb    tnt.pdb
+citronellal.pdb      lactose.pdb          octane.pdb           tuberin.pdb
+codeine.pdb          lanoxin.pdb          pentane.pdb          tyrian-purple.pdb
+cubane.pdb           lsd.pdb              piperine.pdb         vanillin.pdb
+cyclobutane.pdb      maltose.pdb          propane.pdb          vinyl-chloride.pdb
+cyclohexanol.pdb     menthol.pdb          pyridoxal.pdb        vitamin-a.pdb
+$ cd ..
+$ ls
+amino-acids.txt [34melements[39;49m[0m        [34mpdb[39;49m[0m             salmon.txt
+animals.txt     morse.txt       planets.txt     sunspot.txt
+$ cd ..
+$ ls
+[34mDesktop[39;49m[0m            [34mdata[39;49m[0m               [34mnorth-pacific-gyre[39;49m[0m pizza.cfg          [34mwriting[39;49m[0m
+[34mcreatures[39;49m[0m          [34mmolecules[39;49m[0m          notes.txt          solar.pdf
 $ 
