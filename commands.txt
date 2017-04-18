@@ -74,3 +74,5 @@ find . -name ".DS_Store" -print -exec \rm {} \;
 ls
 ls -a
 ls
+git status 
+ls
