@@ -386,4 +386,6 @@ $ for filename in #.[K[K*.pdb
       15 propane.pdb
 $ exit
 exit
-[?1034h$ d
+[?1034h$ d[Kcd swc
+/Users/laufers/swc
+$ cd ou-[K

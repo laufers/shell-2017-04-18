@@ -82,3 +82,4 @@ cd molecules/
 ls
 for filename in *.pdb; do wc -l $filename; done
 exit
+cd swc
