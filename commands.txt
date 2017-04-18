@@ -34,3 +34,4 @@ git commit -m 'test'
 git status
 git status
 git status
+brew install gawk gnu-sed
