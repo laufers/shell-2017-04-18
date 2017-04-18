@@ -70,3 +70,5 @@ cd ..
 ls
 cd ..
 ls
+find . -name ".DS_Store" -print -exec \rm {} \;
+ls

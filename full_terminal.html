@@ -641,6 +641,18 @@ $ ls
 $ cd ..
 $ ls
 <span class="f4">Users</span>        <span class="f4">gapminder</span>    <span class="f4">inflammation</span> <span class="f4">r-gapminder</span>
+$ find . -name &quot;.DS_Store&quot; -print -exec \rm {} \;
+./.DS_Store
+./gapminder/.DS_Store
+./inflammation/.DS_Store
+./Users/.DS_Store
+./Users/nelle/.DS_Store
+./Users/nelle/data/.DS_Store
+./Users/nelle/north-pacific-gyre/.DS_Store
+./Users/nelle/writing/.DS_Store
+./Users/nelle/writing/tools/.DS_Store
+$ ls
+<span class="f4">Users</span>        <span class="f4">gapminder</span>    <span class="f4">inflammation</span> <span class="f4">r-gapminder</span>
 $ 
 </pre>
 </body>

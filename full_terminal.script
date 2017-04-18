@@ -345,4 +345,16 @@ $ ls
 $ cd ..
 $ ls
 [34mUsers[39;49m[0m        [34mgapminder[39;49m[0m    [34minflammation[39;49m[0m [34mr-gapminder[39;49m[0m
+$ find . -name ".DS_Store" -print -exec \rm {} \;
+./.DS_Store
+./gapminder/.DS_Store
+./inflammation/.DS_Store
+./Users/.DS_Store
+./Users/nelle/.DS_Store
+./Users/nelle/data/.DS_Store
+./Users/nelle/north-pacific-gyre/.DS_Store
+./Users/nelle/writing/.DS_Store
+./Users/nelle/writing/tools/.DS_Store
+$ ls
+[34mUsers[39;49m[0m        [34mgapminder[39;49m[0m    [34minflammation[39;49m[0m [34mr-gapminder[39;49m[0m
 $ 
