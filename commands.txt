@@ -1,3 +1,10 @@
 exit
 cd 
 cd swc/ou_swc_files/
+ls
+pwd 
+cd Users/
+ls
+cd nelle
+ls
+pwd 

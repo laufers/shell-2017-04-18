@@ -1,3 +1,16 @@
 [?1034h$ cd 
 $ cd swc/ou_swc_files/
-$ 
+$ ls
+[34mUsers[39;49m[0m        [34mgapminder[39;49m[0m    [34minflammation[39;49m[0m [34mr-gapminder[39;49m[0m
+$ pwd 
+/Users/laufers/swc/ou_swc_files
+$ cd Users/
+$ ls
+[34mimhotep[39;49m[0m [34mlarry[39;49m[0m   [34mnelle[39;49m[0m
+$ cd nelle
+$ ls
+[34mDesktop[39;49m[0m            [34mdata[39;49m[0m               [34mnorth-pacific-gyre[39;49m[0m pizza.cfg          [34mwriting[39;49m[0m
+[34mcreatures[39;49m[0m          [34mmolecules[39;49m[0m          notes.txt          solar.pdf
+$ pwd 
+/Users/laufers/swc/ou_swc_files/Users/nelle
+$ cd c
