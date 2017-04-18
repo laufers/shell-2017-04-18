@@ -47,4 +47,6 @@ $ ls *[AB].txt | wo[Kc -l
       15
 $ ls *.txt | wc -l
       17
-$ for fiel
+$ for fiel[K[Klename in *.txt
+> do
+> echo
