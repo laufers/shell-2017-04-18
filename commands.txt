@@ -46,3 +46,9 @@ ls
 cd Users/
 ls
 ls
+cd nelle/
+ls
+cd data/
+ls
+cd pdb
+ls
