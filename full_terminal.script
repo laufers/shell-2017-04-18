@@ -215,4 +215,6 @@ codeine.pdb          lanoxin.pdb          pentane.pdb          tyrian-purple.pdb
 cubane.pdb           lsd.pdb              piperine.pdb         vanillin.pdb
 cyclobutane.pdb      maltose.pdb          propane.pdb          vinyl-chloride.pdb
 cyclohexanol.pdb     menthol.pdb          pyridoxal.pdb        vitamin-a.pdb
-$ 
+$ pwd 
+/Users/laufers/Dropbox (Univ. of Oklahoma)/OULibraries/swc/ou_swc_files/Users/nelle/data/pdb
+$ catal

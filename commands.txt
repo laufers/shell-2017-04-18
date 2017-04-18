@@ -52,3 +52,4 @@ cd data/
 ls
 cd pdb
 ls
+pwd 
