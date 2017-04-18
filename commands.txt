@@ -54,3 +54,4 @@ cd pdb
 ls
 pwd 
 cat aldrin.pdb 
+grep -i auth *.pdb
