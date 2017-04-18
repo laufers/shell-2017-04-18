@@ -22,3 +22,5 @@ ls
 cd 2012-07-03
 ls
 ls *[AB].txt
+ls *[AB].txt | wc -l 
+ls *.txt | wc -l

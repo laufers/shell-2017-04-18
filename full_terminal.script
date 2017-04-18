@@ -43,4 +43,8 @@ $ ls *[AB].txt
 NENE01729A.txt NENE01751A.txt NENE01843A.txt NENE01978B.txt NENE02040B.txt
 NENE01729B.txt NENE01751B.txt NENE01843B.txt NENE02018B.txt NENE02043A.txt
 NENE01736A.txt NENE01812A.txt NENE01978A.txt NENE02040A.txt NENE02043B.txt
-$ ls *[AB].txt | wo[Kc -l
+$ ls *[AB].txt | wo[Kc -l 
+      15
+$ ls *.txt | wc -l
+      17
+$ 
